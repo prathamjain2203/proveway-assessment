@@ -1,0 +1,201 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>Proveway</title>
+</head>
+
+<body style="background-color: black">
+    <div class="app_container">
+        <div class="pumper_container">
+            <h2 class="app_title">YAY! It’s BOGO</h2>
+            <div class="radio_btns_container">
+                <label for="b1g2" class="radio_btn" id="radio_btn_b1g2">
+                    <div class="container">
+                        <div class="discount_container" id="discount_b1g2"><span class="discount_label">30% off</span>
+                            <img src="./assets/discountEdgeLine.png" class="discount_edge_line" />
+                        </div>
+                        <div class="radio_btn_input">
+                            <input onchange="handleRadioChange(this)" class="radio_input" type="radio" id="b1g2"
+                                name="offer" value="b1g2" />
+                            <label class="input_label" for="b1g2">
+                                <div>
+                                    <div class="percent_off_row">
+                                        <p class="label">Buy 1 Get 2</p>
+                                        <div class="percent_off_label" id="percent_off_b1g2">
+                                            <span>10% off</span>
+                                        </div>
+                                    </div>
+                                    <div class="discounted_amount_row">
+                                        <p class="label price">$18.00 USD</p>
+                                        <p class="discounted_amount" id="discounted_amount_b1g2">$10.00 USD</p>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="settings_container" id="settings_container_b1g2">
+                        <div class="setting_container">
+                            <label class="settings_label">Size</label>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                            </select>
+
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                            </select>
+                        </div>
+                        <div>
+                            <div class="setting_container">
+                                <label class="settings_label">Color</label>
+                                <select>
+                                    <option>Black</option>
+                                    <option>White</option>
+                                </select>
+    
+                                <select>
+                                    <option>Black</option>
+                                    <option>White</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </label>
+                <label for="b2g4" class="radio_btn" id="radio_btn_b2g4">
+                    <div class="container">
+                        <div class="discount_container" id="discount_b2g4"><span class="discount_label">30% off</span>
+                            <img src="./assets/discountEdgeLine.png" class="discount_edge_line" />
+                        </div>
+                        <div class="radio_btn_input">
+                            <input onchange="handleRadioChange(this)" class="radio_input" type="radio" id="b2g4"
+                                name="offer" value="b2g4" />
+                            <label class="input_label" for="b2g4">
+                                <div>
+                                    <div class="percent_off_row">
+                                        <p class="label">Buy 2 Get 4</p>
+                                        <div class="percent_off_label" id="percent_off_b2g4">
+                                            <span>10% off</span>
+                                        </div>
+                                    </div>
+                                    <div class="discounted_amount_row">
+                                        <p class="label price">$24.00 USD</p>
+                                        <p class="discounted_amount" id="discounted_amount_b2g4">$10.00 USD</p>
+                                    </div>
+                                </div>
+                            </label>
+                            <span class="most_popular_label">Most Popular</span>
+                        </div>
+                    </div>
+                    <div class="settings_container" id="settings_container_b2g4">
+                        <div class="setting_container">
+                            <label class="settings_label">Size</label>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                            </select>
+
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                            </select>
+                        </div>
+                        <div>
+                            <div class="setting_container">
+                                <label class="settings_label">Color</label>
+                                <select>
+                                    <option>Black</option>
+                                    <option>White</option>
+                                </select>
+    
+                                <select>
+                                    <option>Black</option>
+                                    <option>White</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </label>
+                <label for="b3g6" class="radio_btn" id="radio_btn_b3g6">
+                    <div class="container">
+
+                        <div class="discount_container" id="discount_b3g6"><span class="discount_label">30% off</span>
+                            <img src="./assets/discountEdgeLine.png" class="discount_edge_line" />
+                        </div>
+                        <div class="radio_btn_input">
+                            <input onchange="handleRadioChange(this)" class="radio_input" type="radio" id="b3g6"
+                                name="offer" value="b3g6" />
+                            <label class="input_label" for="b3g6">
+                                <div>
+                                    <div class="percent_off_row">
+                                        <p class="label">Buy 3 Get 6</p>
+                                        <div class="percent_off_label" id="percent_off_b3g6">
+                                            <span>10% off</span>
+                                        </div>
+                                    </div>
+                                    <div class="discounted_amount_row">
+                                        <p class="label price">$36.00 USD</p>
+                                        <p class="discounted_amount" id="discounted_amount_b3g6">$10.00 USD</p>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="settings_container" id="settings_container_b3g6">
+                        <div class="setting_container">
+                            <label class="settings_label">Size</label>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                            </select>
+
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                            </select>
+                        </div>
+                        <div>
+                            <div class="setting_container">
+                                <label class="settings_label">Color</label>
+                                <select>
+                                    <option>Black</option>
+                                    <option>White</option>
+                                </select>
+    
+                                <select>
+                                    <option>Black</option>
+                                    <option>White</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </label>
+                
+            </div>
+            <div class="extra_details_row">
+                <span class="delivery">Free Delivery</span>
+                <span class="totalPrice">Total : $18.00 USD</span>
+            </div>
+            <button class="add_to_cart_btn">
+                <span class="plus">+</span>
+                <span>Add to Cart</span>
+            </button>
+            <div class="copyright">
+                <span class="poweredBy">Powered by</span>
+                <span class="pumper">Pumper</span>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

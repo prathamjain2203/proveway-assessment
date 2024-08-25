@@ -1,0 +1,241 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.pumper_container {
+  background-color: #fff;
+  padding: 28px 50px;
+  max-width: 442px;
+}
+
+.app_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.app_title {
+  color: #ff6b82;
+  font-size: 21.08px;
+  font-weight: 700;
+  line-height: 25.51px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.radio_btns_container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.radio_btn {
+  box-shadow: 0px 0px 4px 0px #a7a7a740;
+  border-radius: 0px 12px 12px 0px;
+  min-width: 342px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.radio_btn_input {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+.discount_container {
+  width: 70px;
+  height: 74px;
+  border-radius: 12px 0px 0px 12px;
+  border: 0.9px 0px 0.9px 0.9px;
+  background: #ff6b82;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 18px;
+}
+
+.discount_label {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16.35px;
+  color: #fff;
+  text-align: center;
+}
+
+.discount_edge_line {
+  position: absolute;
+  right: -1px;
+  top: 0;
+}
+
+.radio_input {
+  display: none;
+}
+
+.radio_input + label:before {
+  content: '';
+  display: inline-block;
+  width: 9.04px;
+  height: 9.04px;
+  padding: 2.71px;
+  margin-right: 17px;
+  background-clip: content-box;
+  border: 0.9px solid #bbbbbb;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+/* appearance for checked radiobutton */
+.radio_input:checked + label:before {
+  background-color: #ff6b82;
+  border: 0.9px solid #ff6b82;
+}
+
+/* optional styles, I'm using this for centering radiobuttons */
+.input_label {
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  font-size: 14.46px;
+  font-weight: 400;
+  line-height: 17.5px;
+  text-align: left;
+  white-space: noWrap;
+}
+
+.price {
+  font-weight: 600;
+}
+
+.most_popular_label {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.94px;
+  text-align: left;
+  color: #ff6b82;
+  margin-left: 13px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.extra_details_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+  font-size: 14px;
+  line-height: 16.94px;
+  text-align: left;
+}
+
+.delivery {
+  color: #ff6b82;
+  font-weight: 500;
+}
+
+.totalPrice {
+  color: #000;
+  font-weight: 400;
+}
+
+.add_to_cart_btn {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff6b82;
+  color: #fff;
+  width: 100%;
+  height: 40px;
+  outline: none;
+  border: none;
+  margin-top: 20px;
+}
+
+.plus {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.copyright {
+  font-size: 14px;
+  line-height: 16.94px;
+  text-align: center;
+  margin-top: 7px;
+}
+
+.poweredBy {
+  color: #d4d4d4;
+}
+
+.pumper {
+  color: #ff2c31;
+  font-weight: 600;
+}
+
+.percent_off_label {
+  background-color: #ff6b82;
+  padding: 1px 4px 1px 4px;
+  color: #fff;
+  border-radius: 2px;
+  white-space: noWrap;
+  display: none;
+}
+
+.percent_off_row {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.discounted_amount_row {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin-top: 6px;
+}
+
+.discounted_amount {
+  font-size: 9.94px;
+  font-weight: 400;
+  line-height: 12.03px;
+  text-decoration: line-through;
+  color: #9f9f9f;
+  display: none;
+}
+
+.settings_container {
+  display: grid;
+  grid-template-columns: 0.25fr 0.25fr;
+  align-items: center;
+  gap: 8px;
+  margin-left: 32px;
+  margin-top: 10px;
+  display: none;
+}
+
+.settings_label {
+  font-size: 9.94px;
+  font-weight: 400;
+  line-height: 12.03px;
+  text-align: left;
+}
+
+.setting_container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
